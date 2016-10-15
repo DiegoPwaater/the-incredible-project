@@ -1,1 +1,1 @@
-get("#logo").css({width:"100px"})
+get("#logo").css({width:"300px"})
