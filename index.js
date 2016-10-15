@@ -1,8 +1,11 @@
 get("#logo").css({width:"300px"})
 
 
-var width = 10
+var red = true
 setInterval(function() {
-  width = width + 20
-  get("#logo").css({left:width, width: width})
+  red = !red
+  
+  var color = red ? "red" : "g
+  
+  get("#logo").css({left:width, width: width })
 }, 20)
