@@ -13,9 +13,5 @@
 }
 
 #android {
-  border: 10px dashed blue;
-}
-
-#slogan {
-  color:aqua;
+  border: 1px dashed blue;
 }
