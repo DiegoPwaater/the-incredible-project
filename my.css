@@ -12,4 +12,6 @@
   border: 5px dashed yellow;
 }
 
-#android
+#android {
+  border: 10px dashed blue;
+}
