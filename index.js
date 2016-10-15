@@ -1,11 +1,11 @@
 get("#logo").css({width:"300px"})
 
 
-var red = true
+var blue = true
 setInterval(function() {
-  red = !red
+  blue = !blue
   
-  var color = red ? "red" : "green"
+  var color = blue ? "blue" : "black"
   
-  get("#phone").css({ border: "20px solid " + color })
+  get("#logo").css({ border: "20px solid " + color })
 }, 20)
