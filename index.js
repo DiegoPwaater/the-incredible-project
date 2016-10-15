@@ -5,7 +5,7 @@ var red = true
 setInterval(function() {
   red = !red
   
-  var color = red ? "red" : "g
+  var color = red ? "red" : "green"
   
-  get("#logo").css({left:width, width: width })
+  get("#logo").css({ border: "1px solid " + red })
 }, 20)
