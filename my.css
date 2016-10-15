@@ -1,4 +1,4 @@
-#phone {
+/*#phone {*/
   width: 200px;
   border: 6px dashed green;
 }
@@ -13,5 +13,5 @@
 }
 
 #android {
-  border: 1px dashed #;
+  border: 1px dashed red;
 }
