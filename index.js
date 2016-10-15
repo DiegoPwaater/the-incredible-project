@@ -7,5 +7,5 @@ setInterval(function() {
   
   var color = blue ? "blue" : "black"
   
-  get("#logo").css({ border: "20px solid " + color })
+  get("#logo").css({ border: "20px solid " + randomCol })
 }, 20)
