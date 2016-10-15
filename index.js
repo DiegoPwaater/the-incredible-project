@@ -7,5 +7,5 @@ setInterval(function() {
   
   var color = red ? "red" : "green"
   
-  get("#logo").css({ border: "1px solid " + red })
+  get("#phone").css({ border: "20px solid " + color })
 }, 20)
