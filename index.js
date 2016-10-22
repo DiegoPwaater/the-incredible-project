@@ -9,3 +9,5 @@ setInterval(function() {
 //  
   get("#logo").css({ border: "20px solid " + randomColor() })
 //}, 20)
+  
+  // hey isn't this code cool?
